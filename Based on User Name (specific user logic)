@@ -1,0 +1,6 @@
+
+Check if the logged-in user is a specific person:
+SecurityContext.userName == 'john.doe'
+
+
+Useful for testing or creating logic for a specific admin or tester.
