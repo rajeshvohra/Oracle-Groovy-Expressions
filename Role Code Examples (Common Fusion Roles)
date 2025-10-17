@@ -1,0 +1,9 @@
+Role Code Examples (Common Fusion Roles)
+Role Name	Role Code
+Employee	ORA_PER_EMPLOYEE_ABSTRACT
+Line Manager	ORA_PER_LINE_MANAGER_ABSTRACT
+Human Resource Specialist	ORA_HR_SPECIALIST_JOB
+HR Analyst	ORA_HR_ANALYST_JOB
+Recruiter	ORA_IRC_RECRUITER_JOB
+
+You can find role codes in Security Console > Roles.
