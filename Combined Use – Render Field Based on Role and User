@@ -1,0 +1,14 @@
+Combined Use – Render Field Based on Role and User
+SecurityContext.roles.contains('ORA_HR_SPECIALIST_JOB') && SecurityContext.userName == 'jane.smith'
+
+Useful when only a specific person with a role should see/edit something.
+
+Debug Current User & Roles (for testing)
+
+Although not directly used in Groovy logic, for testing, you can add a temporary field or output component and bind it to:
+
+SecurityContext.userName
+
+or iterate:
+
+SecurityContext.roles.join(', ')
