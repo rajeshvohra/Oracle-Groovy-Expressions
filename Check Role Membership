@@ -1,0 +1,9 @@
+Check if user has a specific role:
+SecurityContext.roles.contains('ORA_HR_SPECIALIST_JOB')
+
+
+Returns true if the user has the HR Specialist job role.
+
+You can replace with any role code, e.g., 'ORA_PER_LINE_MANAGER_ABSTRACT'.
+
+Use SecurityContext.roles to get a list of all roles assigned to the current user.
