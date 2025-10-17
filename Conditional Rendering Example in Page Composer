@@ -1,0 +1,12 @@
+Conditional Rendering Example in Page Composer
+
+In Page Composer, these Groovy expressions are typically placed in the "Rendered" or "Read-only" property of a component to control visibility/editability:
+
+Example: Make a DFF field visible only for HR Specialist:
+
+SecurityContext.roles.contains('ORA_HR_SPECIALIST_JOB')
+
+
+Example: Hide a button from employees:
+
+!SecurityContext.roles.contains('ORA_PER_EMPLOYEE_ABSTRACT')
