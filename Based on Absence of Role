@@ -1,0 +1,3 @@
+Based on Absence of Role
+Hide a component if the user does not have a role:
+!SecurityContext.roles.contains('ORA_PER_EMPLOYEE_ABSTRACT')
