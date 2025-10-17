@@ -1,0 +1,4 @@
+Based on Multiple Roles (OR condition)
+Show a component if the user has either of two roles:
+SecurityContext.roles.contains('ORA_HR_SPECIALIST_JOB') || 
+SecurityContext.roles.contains('ORA_PER_LINE_MANAGER_ABSTRACT')
